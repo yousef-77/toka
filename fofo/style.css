@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item img{
+    margin-top: 25px;
+     height: 630px;
+     width: 680px;
+ }
+ 
+ .foodbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    perspective: 2000px;
+}
+.c{
+ 
+    flex-basis: 20%;
+    box-shadow: 5px 6px 10px grey;
+    transform: rotateX(60deg);
+    transition: transform 1s;
+}
+.c1:hover{
+    transform: rotateX(0deg) rotateY(360deg) translateZ(300px);
+}
+
+.foodbox img{
+    width: 250%;
+    
+}
+
+.card1{
+  margin:auto;
+    
+  margin-top:150px;
+  cursor: pointer;
+  max-width: 250px;
+  background: white;
+  padding: 10px;
+  border-radius:10px;
+  text-align: center;
+  box-shadow: 2px 3px 5px grey;
+    
+    }
+.card1 img{
+  width: 100px;
+  margin-top: -50%;
+}
+
+.header{
+    background-image: url('123.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+@media screen and (max-width: 600px) {
+    .text-center>h1{
+        background: blue;
+        
+    }
+}
